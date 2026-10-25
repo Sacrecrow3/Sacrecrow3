@@ -1082,3 +1082,112 @@ textarea {
   }
 
 }
+/* =========================================================
+   FIX — COMPACT VISUAL ARCHIVE
+   Seven images in a compact gallery
+   ========================================================= */
+
+/* Desktop: 3 columns */
+
+.artwork-section {
+  overflow: hidden;
+}
+
+.artwork-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 28px 18px !important;
+  align-items: start;
+  margin-top: 25px;
+}
+
+.artwork-item-1,
+.artwork-item-2,
+.artwork-item-3,
+.artwork-item-4,
+.artwork-item-5,
+.artwork-item-6,
+.artwork-item-7 {
+  grid-column: auto !important;
+  margin-top: 0 !important;
+  min-width: 0;
+}
+
+/* Keep images compact and fully visible */
+
+.artwork-item img {
+  display: block;
+  width: 100%;
+  height: 260px !important;
+  max-height: 260px !important;
+  object-fit: contain !important;
+  background: #1a1a1a;
+  border: 1px solid rgba(244, 244, 239, 0.13);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.artwork-item:hover img {
+  transform: translateY(-4px);
+  border-color: var(--acid);
+}
+
+.artwork-item figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding-top: 10px;
+  font-size: 0.58rem;
+  line-height: 1.5;
+}
+
+.artwork-item figcaption span:last-child {
+  text-align: left;
+}
+
+.artwork-bottomline {
+  margin-top: 40px;
+}
+
+/* Tablet: still 3 columns, slightly shorter images */
+
+@media (max-width: 1000px) {
+  .artwork-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 24px 12px !important;
+  }
+
+  .artwork-item img {
+    height: 210px !important;
+    max-height: 210px !important;
+  }
+}
+
+/* Mobile: 2 columns */
+
+@media (max-width: 650px) {
+  .artwork-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 22px 12px !important;
+  }
+
+  .artwork-item-1,
+  .artwork-item-2,
+  .artwork-item-3,
+  .artwork-item-4,
+  .artwork-item-5,
+  .artwork-item-6,
+  .artwork-item-7 {
+    grid-column: auto !important;
+    margin-top: 0 !important;
+  }
+
+  .artwork-item img {
+    height: 170px !important;
+    max-height: 170px !important;
+  }
+
+  .artwork-item figcaption {
+    font-size: 0.5rem;
+  }
+}
