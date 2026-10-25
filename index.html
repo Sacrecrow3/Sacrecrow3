@@ -368,240 +368,220 @@
       </div>
     </section>
 
-    <!-- VISUAL ARCHIVE -->
-    <section class="artwork-section" id="visual-archive">
+    ```html
+<!-- VISUAL ARCHIVE -->
+<section class="artwork-section" id="visual-archive">
 
-      <div class="archive-header">
-        <div class="archive-topline">
-          <span>04 — VISUAL ARCHIVE</span>
-          <span>INDEPENDENT CREATIVE PRACTICE / 2026</span>
-        </div>
+  <div class="archive-header">
+    <div class="archive-topline">
+      <span>04 — VISUAL ARCHIVE</span>
+      <span>INDEPENDENT CREATIVE PRACTICE / 2026</span>
+    </div>
 
-        <div class="archive-heading">
-          <h2>SELECTED<br><span>WORKS.</span></h2>
-          <p>
-            A collection of images, experiments and visual ideas.
-            Explore the archive.
-          </p>
-        </div>
+    <div class="archive-heading">
+      <h2>SELECTED<br><span>WORKS.</span></h2>
+      <p>
+        A collection of images, experiments and visual ideas.
+        Explore the archive.
+      </p>
+    </div>
 
-        <div class="archive-meta">
-          <span>PERSONAL ARCHIVE / 001—007</span>
-          <span>HOVER TO EXPLORE ↘</span>
-        </div>
+    <div class="archive-meta">
+      <span>PERSONAL ARCHIVE / 001—007</span>
+      <span>HOVER TO EXPLORE ↘</span>
+    </div>
+  </div>
+
+  <!-- CATEGORY FILTERS -->
+  <div class="archive-filters" aria-label="Filter artworks">
+    <button class="filter-button active" data-filter="all" type="button">ALL WORKS</button>
+    <button class="filter-button" data-filter="graphic" type="button">GRAPHIC DESIGN</button>
+    <button class="filter-button" data-filter="illustration" type="button">ILLUSTRATION</button>
+    <button class="filter-button" data-filter="3d" type="button">3D / EXPERIMENT</button>
+  </div>
+
+  <!-- PROJECT GRID -->
+  <div class="archive-grid">
+
+    <button class="archive-card archive-card-large"
+      type="button"
+      data-category="graphic"
+      data-title="MARBLE / VISUAL STUDY"
+      data-type="GRAPHIC DESIGN"
+      data-year="2026"
+      data-description="A selected visual study from the personal archive. Replace this text with the story behind your work.">
+      <span class="archive-image-wrap">
+        <img src="images/marble-art.jpg" alt="Marble visual artwork">
+        <span class="archive-hover">
+          <span>VIEW PROJECT ↗</span>
+          <span class="archive-hover-number">001</span>
+        </span>
+      </span>
+      <span class="archive-card-info">
+        <span><strong>MARBLE / VISUAL STUDY</strong><small>GRAPHIC DESIGN</small></span>
+        <span class="archive-card-index">001 ↗</span>
+      </span>
+    </button>
+
+    <button class="archive-card"
+      type="button"
+      data-category="graphic"
+      data-title="IMAGE STUDY 001"
+      data-type="GRAPHIC DESIGN"
+      data-year="2026"
+      data-description="An exploration of composition, image-making and visual communication.">
+      <span class="archive-image-wrap">
+        <img src="images/a1.jpg" alt="Graphic design project 1">
+        <span class="archive-hover">
+          <span>VIEW PROJECT ↗</span>
+          <span class="archive-hover-number">002</span>
+        </span>
+      </span>
+      <span class="archive-card-info">
+        <span><strong>IMAGE STUDY 001</strong><small>GRAPHIC DESIGN</small></span>
+        <span class="archive-card-index">002 ↗</span>
+      </span>
+    </button>
+
+    <button class="archive-card"
+      type="button"
+      data-category="illustration"
+      data-title="IMAGE STUDY 002"
+      data-type="ILLUSTRATION"
+      data-year="2026"
+      data-description="An independent image experiment exploring form, character and visual expression.">
+      <span class="archive-image-wrap">
+        <img src="images/a2.jpg" alt="Illustration project 2">
+        <span class="archive-hover">
+          <span>VIEW PROJECT ↗</span>
+          <span class="archive-hover-number">003</span>
+        </span>
+      </span>
+      <span class="archive-card-info">
+        <span><strong>IMAGE STUDY 002</strong><small>ILLUSTRATION</small></span>
+        <span class="archive-card-index">003 ↗</span>
+      </span>
+    </button>
+
+    <button class="archive-card archive-card-wide"
+      type="button"
+      data-category="graphic"
+      data-title="IMAGE STUDY 003"
+      data-type="POSTER / VISUAL IDENTITY"
+      data-year="2026"
+      data-description="A visual communication study. Add the project's context, creative process and design decisions here.">
+      <span class="archive-image-wrap">
+        <img src="images/a3.jpg" alt="Poster and visual identity project">
+        <span class="archive-hover">
+          <span>VIEW PROJECT ↗</span>
+          <span class="archive-hover-number">004</span>
+        </span>
+      </span>
+      <span class="archive-card-info">
+        <span><strong>IMAGE STUDY 003</strong><small>POSTER / VISUAL IDENTITY</small></span>
+        <span class="archive-card-index">004 ↗</span>
+      </span>
+    </button>
+
+    <button class="archive-card"
+      type="button"
+      data-category="3d"
+      data-title="FORM EXPERIMENT 001"
+      data-type="3D / EXPERIMENT"
+      data-year="2026"
+      data-description="An experimental study of digital form, material and three-dimensional visual language.">
+      <span class="archive-image-wrap">
+        <img src="images/a4.jpg" alt="3D and experimental artwork">
+        <span class="archive-hover">
+          <span>VIEW PROJECT ↗</span>
+          <span class="archive-hover-number">005</span>
+        </span>
+      </span>
+      <span class="archive-card-info">
+        <span><strong>FORM EXPERIMENT 001</strong><small>3D / EXPERIMENT</small></span>
+        <span class="archive-card-index">005 ↗</span>
+      </span>
+    </button>
+
+    <button class="archive-card"
+      type="button"
+      data-category="illustration"
+      data-title="IMAGE STUDY 004"
+      data-type="ILLUSTRATION"
+      data-year="2026"
+      data-description="An ongoing visual experiment. Replace this description with the actual idea behind the artwork.">
+      <span class="archive-image-wrap">
+        <img src="images/a5.jpg" alt="Illustration project 5">
+        <span class="archive-hover">
+          <span>VIEW PROJECT ↗</span>
+          <span class="archive-hover-number">006</span>
+        </span>
+      </span>
+      <span class="archive-card-info">
+        <span><strong>IMAGE STUDY 004</strong><small>ILLUSTRATION</small></span>
+        <span class="archive-card-index">006 ↗</span>
+      </span>
+    </button>
+
+    <button class="archive-card"
+      type="button"
+      data-category="3d"
+      data-title="FORM EXPERIMENT 002"
+      data-type="3D / EXPERIMENT"
+      data-year="2026"
+      data-description="A work in progress from the independent digital archive.">
+      <span class="archive-image-wrap">
+        <img src="images/a6.jpg" alt="Experimental artwork 6">
+        <span class="archive-hover">
+          <span>VIEW PROJECT ↗</span>
+          <span class="archive-hover-number">007</span>
+        </span>
+      </span>
+      <span class="archive-card-info">
+        <span><strong>FORM EXPERIMENT 002</strong><small>3D / EXPERIMENT</small></span>
+        <span class="archive-card-index">007 ↗</span>
+      </span>
+    </button>
+
+  </div>
+
+  <div class="archive-footer">
+    <span>END OF CURRENT ENTRIES</span>
+    <span>MORE TO COME <b>↗</b></span>
+  </div>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div class="project-modal" id="project-modal" aria-hidden="true">
+    <div class="project-modal-backdrop" data-close-modal></div>
+
+    <div class="project-modal-content"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title">
+
+      <button class="modal-close" type="button" data-close-modal aria-label="Close project details">
+        CLOSE ✕
+      </button>
+
+      <div class="modal-image-wrap">
+        <img id="modal-image" src="images/marble-art.jpg" alt="">
       </div>
 
-      <!-- CATEGORY FILTERS -->
-      <div class="archive-filters" aria-label="Filter artworks">
-        <button class="filter-button active" data-filter="all" type="button" aria-pressed="true">ALL WORKS</button>
-        <button class="filter-button" data-filter="graphic" type="button" aria-pressed="false">GRAPHIC DESIGN</button>
-        <button class="filter-button" data-filter="illustration" type="button" aria-pressed="false">ILLUSTRATION</button>
-        <button class="filter-button" data-filter="3d" type="button" aria-pressed="false">3D / EXPERIMENT</button>
-      </div>
-
-      <!-- PROJECT GRID -->
-      <div class="archive-grid">
-
-        <button class="archive-card archive-card-large"
-          type="button"
-          data-category="graphic"
-          data-title="MARBLE / VISUAL STUDY"
-          data-type="GRAPHIC DESIGN"
-          data-year="2026"
-          data-description="A selected visual study from the personal archive. Replace this text with the story behind your work.">
-          <span class="archive-image-wrap">
-            <img src="images/marble-art.jpg" alt="Marble visual artwork">
-            <span class="archive-hover">
-              <span>VIEW PROJECT ↗</span>
-              <span class="archive-hover-number">001</span>
-            </span>
-          </span>
-          <span class="archive-card-info">
-            <span>
-              <strong>MARBLE / VISUAL STUDY</strong>
-              <small>GRAPHIC DESIGN</small>
-            </span>
-            <span class="archive-card-index">001 ↗</span>
-          </span>
-        </button>
-
-        <button class="archive-card"
-          type="button"
-          data-category="graphic"
-          data-title="IMAGE STUDY 001"
-          data-type="GRAPHIC DESIGN"
-          data-year="2026"
-          data-description="An exploration of composition, image-making and visual communication.">
-          <span class="archive-image-wrap">
-            <img src="images/a1.jpg" alt="Graphic design project 1">
-            <span class="archive-hover">
-              <span>VIEW PROJECT ↗</span>
-              <span class="archive-hover-number">002</span>
-            </span>
-          </span>
-          <span class="archive-card-info">
-            <span>
-              <strong>IMAGE STUDY 001</strong>
-              <small>GRAPHIC DESIGN</small>
-            </span>
-            <span class="archive-card-index">002 ↗</span>
-          </span>
-        </button>
-
-        <button class="archive-card"
-          type="button"
-          data-category="illustration"
-          data-title="IMAGE STUDY 002"
-          data-type="ILLUSTRATION"
-          data-year="2026"
-          data-description="An independent image experiment exploring form, character and visual expression.">
-          <span class="archive-image-wrap">
-            <img src="images/a2.jpg" alt="Illustration project 2">
-            <span class="archive-hover">
-              <span>VIEW PROJECT ↗</span>
-              <span class="archive-hover-number">003</span>
-            </span>
-          </span>
-          <span class="archive-card-info">
-            <span>
-              <strong>IMAGE STUDY 002</strong>
-              <small>ILLUSTRATION</small>
-            </span>
-            <span class="archive-card-index">003 ↗</span>
-          </span>
-        </button>
-
-        <button class="archive-card archive-card-wide"
-          type="button"
-          data-category="graphic"
-          data-title="IMAGE STUDY 003"
-          data-type="POSTER / VISUAL IDENTITY"
-          data-year="2026"
-          data-description="A visual communication study. Add the project's context, creative process and design decisions here.">
-          <span class="archive-image-wrap">
-            <img src="images/a3.jpg" alt="Poster and visual identity project">
-            <span class="archive-hover">
-              <span>VIEW PROJECT ↗</span>
-              <span class="archive-hover-number">004</span>
-            </span>
-          </span>
-          <span class="archive-card-info">
-            <span>
-              <strong>IMAGE STUDY 003</strong>
-              <small>POSTER / VISUAL IDENTITY</small>
-            </span>
-            <span class="archive-card-index">004 ↗</span>
-          </span>
-        </button>
-
-        <button class="archive-card"
-          type="button"
-          data-category="3d"
-          data-title="FORM EXPERIMENT 001"
-          data-type="3D / EXPERIMENT"
-          data-year="2026"
-          data-description="An experimental study of digital form, material and three-dimensional visual language.">
-          <span class="archive-image-wrap">
-            <img src="images/a4.jpg" alt="3D and experimental artwork">
-            <span class="archive-hover">
-              <span>VIEW PROJECT ↗</span>
-              <span class="archive-hover-number">005</span>
-            </span>
-          </span>
-          <span class="archive-card-info">
-            <span>
-              <strong>FORM EXPERIMENT 001</strong>
-              <small>3D / EXPERIMENT</small>
-            </span>
-            <span class="archive-card-index">005 ↗</span>
-          </span>
-        </button>
-
-        <button class="archive-card"
-          type="button"
-          data-category="illustration"
-          data-title="IMAGE STUDY 004"
-          data-type="ILLUSTRATION"
-          data-year="2026"
-          data-description="An ongoing visual experiment. Replace this description with the actual idea behind the artwork.">
-          <span class="archive-image-wrap">
-            <img src="images/a5.jpg" alt="Illustration project 5">
-            <span class="archive-hover">
-              <span>VIEW PROJECT ↗</span>
-              <span class="archive-hover-number">006</span>
-            </span>
-          </span>
-          <span class="archive-card-info">
-            <span>
-              <strong>IMAGE STUDY 004</strong>
-              <small>ILLUSTRATION</small>
-            </span>
-            <span class="archive-card-index">006 ↗</span>
-          </span>
-        </button>
-
-        <button class="archive-card"
-          type="button"
-          data-category="3d"
-          data-title="FORM EXPERIMENT 002"
-          data-type="3D / EXPERIMENT"
-          data-year="2026"
-          data-description="A work in progress from the independent digital archive.">
-          <span class="archive-image-wrap">
-            <img src="images/a6.jpg" alt="Experimental artwork 6">
-            <span class="archive-hover">
-              <span>VIEW PROJECT ↗</span>
-              <span class="archive-hover-number">007</span>
-            </span>
-          </span>
-          <span class="archive-card-info">
-            <span>
-              <strong>FORM EXPERIMENT 002</strong>
-              <small>3D / EXPERIMENT</small>
-            </span>
-            <span class="archive-card-index">007 ↗</span>
-          </span>
-        </button>
-
-      </div>
-
-      <div class="archive-footer">
-        <span>END OF CURRENT ENTRIES</span>
-        <span>MORE TO COME <b>↗</b></span>
-      </div>
-
-      <!-- PROJECT DETAIL MODAL -->
-      <div class="project-modal" id="project-modal" aria-hidden="true">
-        <div class="project-modal-backdrop" data-close-modal></div>
-
-        <div class="project-modal-content"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="modal-title">
-
-          <button class="modal-close" type="button" data-close-modal aria-label="Close project details">
-            CLOSE ✕
-          </button>
-
-          <div class="modal-image-wrap">
-            <img id="modal-image" src="images/marble-art.jpg" alt="Selected artwork">
-          </div>
-
-          <div class="modal-project-info">
-            <span class="modal-kicker" id="modal-type">PROJECT / CATEGORY</span>
-            <h3 id="modal-title">PROJECT TITLE</h3>
-            <p id="modal-description">Project description.</p>
-
-            <div class="modal-bottom">
-              <span id="modal-year">2026</span>
-              <span>MARBLE® / 404 DIGITAL WORLD</span>
-            </div>
-          </div>
-
+      <div class="modal-project-info">
+        <span class="modal-kicker" id="modal-type">PROJECT / CATEGORY</span>
+        <h3 id="modal-title">PROJECT TITLE</h3>
+        <p id="modal-description">Project description.</p>
+        <div class="modal-bottom">
+          <span id="modal-year">2026</span>
+          <span>MARBLE® / 404 DIGITAL WORLD</span>
         </div>
       </div>
 
-    </section>
+    </div>
+  </div>
+
+</section>
+```
 
     <!-- CLOSING -->
     <section class="closing-section">
@@ -639,108 +619,6 @@
       <a href="#home">RETURN TO ORIGIN ↗</a>
     </div>
   </footer>
-
-  <!-- INTERACTIVE ARCHIVE -->
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const cards = document.querySelectorAll(".archive-card");
-      const filterButtons = document.querySelectorAll(".filter-button");
-      const modal = document.getElementById("project-modal");
-
-      const modalImage = document.getElementById("modal-image");
-      const modalTitle = document.getElementById("modal-title");
-      const modalType = document.getElementById("modal-type");
-      const modalDescription = document.getElementById("modal-description");
-      const modalYear = document.getElementById("modal-year");
-
-      let lastFocusedElement = null;
-
-      // Filter projects by category
-      filterButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-          const filter = button.dataset.filter;
-
-          filterButtons.forEach((item) => {
-            const isActive = item === button;
-            item.classList.toggle("active", isActive);
-            item.setAttribute("aria-pressed", String(isActive));
-          });
-
-          cards.forEach((card) => {
-            const matches =
-              filter === "all" || card.dataset.category === filter;
-
-            card.hidden = !matches;
-          });
-        });
-      });
-
-      // Open project details
-      cards.forEach((card) => {
-        card.addEventListener("click", () => {
-          lastFocusedElement = card;
-
-          const image = card.querySelector("img");
-
-          modalImage.src = image.src;
-          modalImage.alt = image.alt;
-          modalTitle.textContent = card.dataset.title;
-          modalType.textContent = card.dataset.type;
-          modalDescription.textContent = card.dataset.description;
-          modalYear.textContent = card.dataset.year;
-
-          modal.classList.add("is-open");
-          modal.setAttribute("aria-hidden", "false");
-          document.body.style.overflow = "hidden";
-
-          modal.querySelector(".modal-close").focus();
-        });
-      });
-
-      // Close when clicking the close button or backdrop
-      modal.querySelectorAll("[data-close-modal]").forEach((element) => {
-        element.addEventListener("click", closeModal);
-      });
-
-      // Close with Escape
-      document.addEventListener("keydown", (event) => {
-        if (!modal.classList.contains("is-open")) return;
-
-        if (event.key === "Escape") {
-          closeModal();
-        }
-
-        if (event.key === "Tab") {
-          const focusable = modal.querySelectorAll(
-            'button:not([disabled]), [href], input:not([disabled]), [tabindex]:not([tabindex="-1"])'
-          );
-
-          const first = focusable[0];
-          const last = focusable[focusable.length - 1];
-
-          if (!first || !last) return;
-
-          if (event.shiftKey && document.activeElement === first) {
-            event.preventDefault();
-            last.focus();
-          } else if (!event.shiftKey && document.activeElement === last) {
-            event.preventDefault();
-            first.focus();
-          }
-        }
-      });
-
-      function closeModal() {
-        modal.classList.remove("is-open");
-        modal.setAttribute("aria-hidden", "true");
-        document.body.style.overflow = "";
-
-        if (lastFocusedElement) {
-          lastFocusedElement.focus();
-        }
-      }
-    });
-  </script>
 </body>
 </html>
 ```
