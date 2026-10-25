@@ -1,3 +1,4 @@
+
 /* ==========================================================
    MARBLE'S 404 — EXPERIMENTAL DIGITAL POSTER
    Neo-brutalist editorial / rave flyer / typographic collage
@@ -1363,8 +1364,6 @@ a:focus-visible {
     font-size: clamp(65px, 16vw, 100px);
   }
 
-  .reflections-intro { max-width: 330px; }
-
   .reflection-item {
     grid-template-columns: 48px minmax(0,1fr);
     gap: 14px;
@@ -1461,7 +1460,9 @@ a:focus-visible {
     animation-iteration-count: 1 !important;
     transition-duration: .01ms !important;
   }
-}/* =========================================
+}
+
+/* =========================================
    FIX 01 — PROFILE PHOTO
    Default: full colour
    Hover: halftone / dotted effect
@@ -1510,7 +1511,6 @@ a:focus-visible {
   position: relative;
   z-index: 0;
 }
-
 
 /* =========================================
    FIX 02 — VISUAL ARCHIVE
@@ -1593,4 +1593,24 @@ a:focus-visible {
   .artwork-image {
     transition: none;
   }
+}
+
+/* =========================================
+   WEEK 03 — SMALL SCRAPING IMAGE
+   ========================================= */
+
+.scraping-image {
+  display: block;
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  margin: 12px 0 14px;
+  border: 1px solid rgba(215, 255, 0, 0.3);
+  border-radius: 6px;
+  opacity: 0.9;
+  transition: opacity 0.25s ease;
+}
+
+.scraping-image:hover {
+  opacity: 1;
 }
