@@ -1055,7 +1055,7 @@ a:focus-visible {
 }
 
 .closing-section::before {
-  content: "✳";
+  content: "✓";
   position: absolute;
   z-index: -1;
   top: 5%;
@@ -1596,35 +1596,23 @@ a:focus-visible {
 }
 
 /* =========================================
-   WEEK 03 — SMALL SCRAPING IMAGE
+   WEEK 03 — WEB SCRAPING IMAGE
+   Slightly larger, responsive image
    ========================================= */
 
 .scraping-image {
   display: block;
-  width: 220px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 420px;
   height: auto;
   object-fit: contain;
-  margin: 12px 0 14px;
+  margin: 18px 0 20px;
   border: 1px solid rgba(215, 255, 0, 0.3);
   border-radius: 6px;
-  opacity: 0.9;
+  opacity: 0.95;
   transition: opacity 0.25s ease;
 }
 
 .scraping-image:hover {
   opacity: 1;
-}
-
-/* WEEK 03 — WEB SCRAPING IMAGE */
-
-.scraping-image {
-  display: block;
-  width: 140px;
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin: 12px 0 14px;
-  border: 1px solid rgba(200, 255, 0, 0.3);
-  border-radius: 6px;
 }
