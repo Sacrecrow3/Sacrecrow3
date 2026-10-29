@@ -1612,6 +1612,15 @@ a:focus-visible {
   opacity: 0.95;
   transition: opacity 0.25s ease;
 }
+/* FIX — WEB SCRAPING IMAGE SIZE */
+img.scraping-image {
+  display: block !important;
+  width: 100% !important;
+  max-width: 420px !important;
+  min-width: 300px;
+  height: auto !important;
+  object-fit: contain;
+}
 
 .scraping-image:hover {
   opacity: 1;
